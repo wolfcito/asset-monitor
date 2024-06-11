@@ -1,0 +1,21 @@
+{
+  "name": "asset-monitor",
+  "version": "1.0.0",
+  "description": "save your assets",
+  "main": "index.js",
+  "author": "Wolfcito",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "pnpm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
